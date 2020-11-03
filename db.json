@@ -1,0 +1,298 @@
+{
+  "goods": [
+	{
+		"id":0,
+		"name":"Суши чука",
+		"description":"Морские водоросли, рис, чука",
+		"categoryId":0,
+		"price":70,
+		"image":"sushi-chuka.jpg"
+	},
+	{
+		"id":1,
+		"name":"Народный",
+		"description":"Калифорния, ролл с окунем, ролл с огурцом, 4 суши с лососем",
+		"categoryId":2,
+		"price":490,
+		"image":"people.jpg"	
+	},
+	{
+		"id":2,
+		"name":"Филадельфия",
+		"description":"Лосось, рис, сыр филадельфия",
+		"categoryId":1,
+		"price":350,
+		"image":"filadelfia.png"	
+	},
+	{
+		"id":3,
+		"name":"Суши морской гребешок",
+		"description":"Рис, морской гребешок",		
+		"categoryId":0,
+		"price":130,
+		"image":"sea-scallop.jpg"
+	},
+	{
+		"id":4,
+		"name":"Суши нежный крабик",
+		"description":"Рис, водоросли, мясо краба",		
+		"categoryId":0,
+		"price":120,
+		"image":"crab.png"
+	},
+	{
+		"id":5,
+		"name":"Суши свежий лосось",
+		"description":"Рис, свежий лосось",		
+		"categoryId":0,
+		"price":80,
+		"image":"salmon.png"
+	},
+	{
+		"id":6,
+		"name":"Суши с креветкой",
+		"description":"Рис, гигантская креветка",		
+		"categoryId":0,
+		"price":120,
+		"image":"crevedko.png"
+	},
+	{
+		"id":7,
+		"name":"Запеченные суши с крабом",
+		"description":"запеченный снежный краб",
+		"categoryId":0,
+		"price":120,
+		"image":"baked.png"
+	},
+	{
+		"id":8,
+		"name":"Запеченные суши с мидиями",
+		"description":"запеченные мидии в сливочном соусе",
+		"categoryId":0,
+		"price":130,
+		"image":"baked.png"
+	},
+	{
+		"id":9,
+		"name":"Запеченные суши с тунцом",
+		"description":"запеченный тунец со сливочным сыром",
+		"categoryId":0,
+		"price":130,
+		"image":"baked.png"
+	},
+	{
+		"id":10,
+		"name":"Суши с японским омлетом",
+		"description":"японский омлет",
+		"categoryId":0,
+		"price":60,
+		"image":"japan-omlet.png"
+	},
+	{
+		"id":11,
+		"name":"Суши со сливочным сыром и икрой",
+		"description":"Суши со сливочным сыром и икрой",
+		"categoryId":0,
+		"price":75,
+		"image":"salmon-caviar.png"
+	},
+	{
+		"id":12,
+		"name":"Суши с красной икрой летучей рыбы",
+		"description":"Суши с красной икрой летучей рыбы",
+		"categoryId":0,
+		"price":110,
+		"image":"caviar-flying-fish.png"
+	},
+	{
+		"id":13,
+		"name":"Запеченные суши с угрем",
+		"description":"запеченный копченый угорь",
+		"categoryId":0,
+		"price":130,
+		"image":"conger.png"
+	},
+	{
+		"id":14,
+		"name":"Суши с морским окунем",
+		"description":"морской окунь",
+		"categoryId":0,
+		"price":75,
+		"image":"grouper.png"
+	},
+	{
+		"id":15,
+		"name":"Унаги Чизу Маки",
+		"description":"Сливочный сыр, икра масаго оранжевая, угорь, авокадо",
+		"categoryId":1,
+		"price":280,
+		"image":"unagi.png"
+	},
+	{
+		"id":16,
+		"name":"Калифорния",
+		"description":"Кунжут, краб, авокадо, огурец",
+		"categoryId":1,
+		"price":180,
+		"image":"california.png"
+	},
+	{
+		"id":17,
+		"name":"Чёрный сёгун",
+		"description":"",
+		"categoryId":1,
+		"price":280,
+		"image":"seogun.png"
+	},
+	{
+		"id":18,
+		"name":"Филадельфия лайт",
+		"description":"сливочный сыр, огурец, лосось",
+		"categoryId":1,
+		"price":190,
+		"image":"filadelfia-lite.png"
+	},
+	{
+		"id":19,
+		"name":"Синоби",
+		"description":"икра масаго зеленая, креветка, огурец, сливочный сыр",
+		"categoryId":1,
+		"price":210,
+		"image":"sinobi.png"
+	},
+	{
+		"id":20,
+		"name":"Манго-Окунь",
+		"description":"сливочный сыр, манго, окунь",
+		"categoryId":1,
+		"price":240,
+		"image":"mango.png"
+	},
+	{
+		"id":21,
+		"name":"Маруяки Маки",
+		"description":"лосось гриль, огурец, лист салата, спайси соус, масаго",
+		"categoryId":1,
+		"price":200,
+		"image":"maruyaki.png"
+	},
+	{
+		"id":22,
+		"name":"Мини-ролл с лососем",
+		"description":"лосось",
+		"categoryId":1,
+		"price":160,
+		"image":"mini-salmon.png"
+	},
+	{
+		"id":23,
+		"name":"Мини-ролл с огурцом",
+		"description":"огурец",
+		"categoryId":1,
+		"price":120,
+		"image":"ogurets.png"
+	},
+	{
+		"id":24,
+		"name":"Набор Эгоист",
+		"description":"Ролл черный сёгун, 2 суши с креветкой, суши с лососем, суши с японским омлетом",
+		"categoryId":2,
+		"price":360,
+		"image":"egoist.jpg"
+	}
+  ],
+  "category": [
+	{
+	"id":0,
+	"name":"Суши"	
+	},
+	{
+	"id":1,
+	"name":"Роллы"	
+	},
+	{
+	"id":2,
+	"name":"Наборы"	
+	}
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Искусство программирования",
+      "author": "Дональд Кнут",
+      "price": 1500,
+      "coverImage": "/images/knut.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Жемчужины программирования",
+      "author": "Джон Бентли",
+      "price": 450,
+      "coverImage": "/images/bentley.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Чистый код: создание, анализ и рефакторинг",
+      "author": "Роберт Мартин",
+      "price": 600,
+      "coverImage": "/images/chisty-kod.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Чистая архитектура. Искусство разработки программного обеспечения",
+      "author": "Роберт К. Мартин",
+      "price": 700,
+      "coverImage": "/images/clear-arch.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Мастер-класс. Совершенный код.",
+      "author": "Макконнелл С.",
+      "price": 1250,
+      "coverImage": "/images/perfect-code.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Объектно-ориентированное программирование в С ++ 4 -е изд.",
+      "author": "Лафоре Р.",
+      "price": 1450,
+      "coverImage": "/images/lafore.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Сам себе программист. Как научиться программировать и устроиться в Ebay?",
+      "author": "Альтхофф К.",
+      "price": 550,
+      "coverImage": "/images/althoff.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Unity в действии. Мультиплатформенная разработка на C#. 2-е международное издание",
+      "author": "Хокинг Джозеф",
+      "price": 1000,
+      "coverImage": "/images/unity.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Swift. Основы разработки приложений под iOS, iPadOS и macOS. 5-е изд., доп. и перераб.",
+      "author": "Усов Василий",
+      "price": 870,
+      "coverImage": "/images/swift.jpg"
+    },
+	 {
+      "id": 10,
+      "title": "Алгоритмы. Построение и анализ",
+      "author": "Кормен и др",
+      "price": 520,
+      "coverImage": "/images/kormen.jpg"
+    }, 
+	{
+      "id": 11,
+      "title": "Код: тайный язык информатики",
+      "author": "Чарльз Петцольд",
+      "price": 360,
+      "coverImage": "/images/kod.jpg"
+    }
+	
+  ]
+}

@@ -1,0 +1,144 @@
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+.logo {
+  width: 300px;
+  height: 50px;
+  background-image: url(/assets/images/logo.png);
+  float: left;
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#app {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.shop-header {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	& .logo {font-size: 0;}
+	& > * {
+		flex: 1;
+			&:first-child {
+		flex: none;
+	}
+	&:last-child {
+		flex: none;
+	}
+	}
+
+}
+
+.active {color: red;}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+	padding: 4px 8px;
+	margin: 8px auto;
+	align-items: center;
+    justify-content: space-between;
+}	
+
+.categories {
+	padding: 0 8px;
+	.category {
+		padding: 4px 12px;
+		margin-right: 12px;
+		border-radius: 3px;
+		color: #333;
+		background: #bbb;
+		cursor: pointer;
+		&.active {
+			color: white;
+			background: darkred;
+		}
+	}
+}
+
+.items-list {
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	.item {
+		width: 228px;
+		border: 1px solid #eee;
+		margin: 10px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		&__image {
+			width: 216px;
+			height: 216px;
+		}
+		&__fakeimage {
+			width: 216px;
+			height: 216px;
+			background: #DDD;
+		}
+		&__title {
+			flex: 0;
+		}
+		&__description {flex: 1;}
+		&__price {flex: 0;}
+		.add-to-cart {
+			display: block;
+			width: 100%;
+		
+		}
+	}
+}
+
+nav.pagi {
+display: flex;
+}
+.pagination {
+	flex: 1;
+	list-style: none;
+	display: flex;
+	padding-left: 10px;
+	.page-item {
+		user-select: none;
+		border: 1px solid #eee;
+		border-radius: 2px;
+		margin-right: 4px;
+		&.active {
+			.page-link {
+				color: #fff;
+				background: darkred;
+			}
+		}
+	}
+	.page-link {
+		display: block;
+		padding: 3px 10px;
+		width: 100%;
+		color: #000;
+		background: #bbb;
+		border-radius: 2px;
+		cursor: pointer;
+		&:hover {
+			background: #ddd;
+		}
+	}
+	.page-items-collapse {
+		padding: 0 12px;
+		margin: 0 6px;
+	}
+}
+.pagination-per-page {
+	flex: none;
+	margin-right: 10px;
+}
